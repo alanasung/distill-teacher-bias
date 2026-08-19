@@ -220,44 +220,6 @@ resume, safe-name validation, and hard errors on version mismatch.
 | Silent CPU fallback | `HardwareError` on missing accelerator |
 | Synthetic reported as measured | `is_synthetic` + CONTRIBUTING honesty rule |
 
-## 20. Mentors and affiliation
+## 20. Attribution
 
-Mentor(s): Alana Sung
-Affiliation(s): 
-SPAR posting: https://github.com/alanasung/distill-teacher-bias
-
-## 21. Glossary
-
-| Term | Meaning |
-|---|---|
-| Pilot | Local profile that must finish on M4-class hardware |
-| Full | Scaled profile; may require discrete GPU |
-| MDE | Minimum detectable effect |
-| TOST | Two one-sided tests for equivalence |
-| Role | Named model slot in `Config.roles` |
-
-## 22. Change control
-
-Shared spine changes land in `orchestration/templates/` and are regenerated into
-all seven repos by `scaffold2.py`. Domain packages under
-`src/distbias/distbias/` are preserved across regeneration.
-
-## Appendix: regeneration
-
-Run `python orchestration/scaffold2.py` from the meta-repo root after template edits.
-
-## Appendix: regeneration
-
-Run `python orchestration/scaffold2.py` from the meta-repo root after template edits.
-
-## Appendix: regeneration
-
-Run `python orchestration/scaffold2.py` from the meta-repo root after template edits.
-
-## Appendix: regeneration
-
-Run `python orchestration/scaffold2.py` from the meta-repo root after template edits.
-
-## Appendix: regeneration
-
-Run `python orchestration/scaffold2.py` from the meta-repo root after template edits.
+Author: Alana Sung.
